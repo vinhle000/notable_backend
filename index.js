@@ -17,3 +17,7 @@ app.listen(3000, () =>
 
 const doctorsRouter = require('./routes/doctors')
 app.use('/doctors', doctorsRouter)
+
+
+const appointmentsRouter = require('./routes/appointments')
+app.use('/appointments', appointmentsRouter)
